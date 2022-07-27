@@ -1,5 +1,6 @@
 ---
 title: Getting Started with Github Pages
+feature_image: "/assets/images/bench-blur.png"
 categories:
 - Git
 - Github Pages
