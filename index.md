@@ -2,7 +2,7 @@
 title: Flourish
 feature_text: |
   Flourish; *verb*; to grow extravagantly; to execute with style or flair
-feature_image: "/assets/images/mushroom-blur.png"
+feature_image: "/assets/images/mushroom-blur.jpg"
 ---
 
 Here you'll find my blog, projects I'm working on or have worked on, and information about me.
