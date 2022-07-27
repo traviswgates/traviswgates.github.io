@@ -74,8 +74,10 @@ At the end of Matthias' recommended setup, you have 3 repositories with their ow
 
 My content goes to `origin` and stays mine, a history isolated from the theme itself. To swap to another theme, I'll rebase my content on top of the new theme's history and modify my `upstream` and `personalUpstream` remotes accordingly. I can incorporate new features from `upstream` into my repository with a fetch and rebase, and can add, extend, or remove features via my `personalUpstream` fork, all independently of my site's content.
 
-I'm very passionate about git -- it was love at first usage, from the first `git rebase -i`. It's my favorite source control technology to use. I'm pretty new to blogging, though. My websites of yesteryear were usually glorified portfolios, static and largely unchanging, showing off many images of past projects.
+I'm very passionate about git -- it was love at first usage, from the first `git rebase -i`. It's my favorite source control technology to use. I'm pretty new to blogging, though. My websites of yesteryear were typically portfolios, shiny but unchanging, showing off images and linking to videos of past projects. Not a whole lot of insight into technologies or cool solutions to weird problems.
 
-As this site grows, I may include some portfolio-style content in a similar style, but at this point I'm more interested in sharing knowledge and building a library of knowledge-focused content for myself that may also benefit others.
+As this site grows, I may include some portfolio content in a similar style, but I'm more interested in sharing knowledge and building a library of content for myself that may also benefit others.
 
-Is there value in my writing a start-to-finish guide to how I setup this website? From installing Ruby and Jekyll to finally merging a pull request to `main` in this site's repository? Aggregating, annotating, and troubleshooting guides has value, wouldn't you say?
+Is there value in writing a walkthrough of how I setup this site, from installing Ruby and Jekyll to finally merging a pull request to `main` in this site's repository to publish on Github Pages?
+
+*Maybe.*
