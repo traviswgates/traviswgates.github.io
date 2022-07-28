@@ -1,8 +1,9 @@
 ---
 title: Flourish
-feature_text: |
-  Flourish; *verb*; to grow extravagantly; to execute with style or flair
+feature_text: 
 feature_image: "/assets/images/mushroom-blur.jpg"
 ---
 
-Here you'll find my blog, projects I'm working on or have worked on, and information about me.
+This site is a little of everything.
+
+Here you'll find my [blog](blog/index.html), where you might find a technology walkthrough -- or a baking recipe.
