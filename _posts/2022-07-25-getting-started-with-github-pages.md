@@ -1,13 +1,12 @@
 ---
-title: Getting Started with Github Pages
+title: Jekyll Themes, Git Remotes, and Github Pages
 feature_image: "/assets/images/bench-blur.jpg"
+excerpt: "This site: Jekyll, Alembic, and Github Pages."
 categories:
-- Git
-- Github Pages
-- Jekyll
+- Discussion
 ---
 
-# Making a Website
+# Jekyll and Github Pages
 
 This site is built with Jekyll and hosted via Github Pages.
 
@@ -27,7 +26,7 @@ I've worked with web technologies especially frequently over the last 3 years, s
 
 I welcome more tools to the toolbox.
 
-## Searching for Themes
+## Choosing a Theme
 
 Especially when choosing a website, look and feel matter. Moreover, Jekyll is analagous to a workbench with many tools available to build a website. After performing the [official Jekyll Step-by-Step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/), I realized I wouldn't mind a bit of a jumping-off point. Web *design* is not something I've practiced much; I welcome assistance from a more experienced designer.
 
@@ -39,7 +38,7 @@ Turns out, there are a [*lot* of themes on Github](https://github.com/topics/jek
 
 This site is based on Alembic. *Thanks David!*
 
->I highly encourage you to donate or tip creators that make things that help you; every peer-to-peer transaction like that empowers creators and creativity everywhere, and helps create a more equitable culture.
+>Please tip your creators! By doing so, you incentivize a robust, resilient catalog of options for everyone! You also empower individuals to explore their passions and use them to make the world a better place.
 
 ## Implementing a Theme
 
@@ -52,7 +51,7 @@ Github Pages -- and the wider internet -- has instructions on how to incorporate
 
 I opted for none of the above. Something like a fork with benefits.
 
->There are a lot of ways to implement a theme. At the end of the day, I went with a largely manual approach that allowed me to extend an existing theme into my own. My method provides me with more flexibility and control, as well as an opportunity to see, interact with, and modify many of the moving parts involved in the theme I started with.
+>There are a lot of ways to implement a theme. At the end of the day, I went with a largely manual approach that allowed me to extend an existing theme into my own. My method provides me with flexibility and control. I also get to see and interact with the moving parts of a well-designed theme and learn by experimentation.
 
 Realizing that I wanted to start with a theme and tune it to my needs, modifying it in any number of ways, I decided I wanted to start with Alembic's base and grow from there. [David encourages the use of Alembic as a starting point](https://github.com/daviddarnes/alembic#about), and I've done so.
 
@@ -66,19 +65,17 @@ Some searching led me to the blog of Matthias Lischka, who authored an [article 
 
 Matthias recommends using multiple `remotes` to separate responsibility and ensure that theme-switching is simple later on.
 
-## Three Remotes; Three Responsibilities
+## Implementing Alembic with Multiple Git Remotes
+
+>Three Remotes; Three Responsibilities
 
 At the end of Matthias' recommended setup, you have 3 repositories with their own responsibilities:
 - `origin` - your website's publishing source repository, where the **content** of your site will live. Pages, posts, logos, etc.
 - `upstream` - your theme's repository; in my case, [Alembic's repository](https://github.com/daviddarnes/alembic)
 - `personalUpstream` - a fork of your theme's repository for any custom changes that aren't content-related. This might include new features (or feature removal), etc.
 
-My content goes to `origin` and stays mine, a history isolated from the theme itself. To swap to another theme, I'll rebase my content on top of the new theme's history and modify my `upstream` and `personalUpstream` remotes accordingly. I can incorporate new features from `upstream` into my repository with a fetch and rebase, and can add, extend, or remove features via my `personalUpstream` fork, all independently of my site's content.
+My content goes to `origin`, its history chronologically isolated from the theme itself. To swap to another theme, I'll rebase my content on top of the new theme's history and modify my `upstream` and `personalUpstream` remotes accordingly. I can incorporate new features from `upstream` into my repository with a fetch and rebase, and can add, extend, or remove features via my `personalUpstream` fork, all independently of my site's content.
 
 I'm very passionate about git -- it was love at first usage, from the first `git rebase -i`. It's my favorite source control technology to use. I'm pretty new to blogging, though. My websites of yesteryear were typically portfolios, shiny but unchanging, showing off images and linking to videos of past projects. Not a whole lot of insight into technologies or cool solutions to weird problems.
 
 As this site grows, I may include some portfolio content in a similar style, but I'm more interested in sharing knowledge and building a library of content for myself that may also benefit others.
-
-Is there value in writing a walkthrough of how I setup this site, from installing Ruby and Jekyll to finally merging a pull request to `main` in this site's repository to publish on Github Pages?
-
-*Maybe.*
