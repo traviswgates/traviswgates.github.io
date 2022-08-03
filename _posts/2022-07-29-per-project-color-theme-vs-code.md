@@ -1,8 +1,11 @@
 ---
 title: Set a Color Theme for a Specific Project or Folder in VS Code
+excerpt: "Use the Workbench Color Theme property in Workspace Settings to set a per-project-directory color theme default in VS Code."
 ---
 
-# Set a Color Theme for a Specific Project or Folder in VS Code
+# Different Projects, Different Color Themes
+
+Try setting the `Workbench Color Theme` property in your Workspace Settings. With this property, you can set a default color theme for each project or folder you open with VS Code, loosely coupling a theme to specific work.
 
 1. In VS Code, open your project folder, perhaps with **File > Open Folder** or `CTRL+K, CTRL+O`. I typically invoke `code .` from the directory via my shell.
 2. Navigate to the `Workspace Settings`
